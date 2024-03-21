@@ -32,7 +32,8 @@ while len(guessed_states) < 50:
         new_data.to_csv("states_to_learn.csv")
         break
 
-    #check if the answer state is in the all states list and if it is write the state name on the map
+    #check if the answer state is in the all states list and if it is write
+    # the state name on the map
     if answer_state in all_states:
         guessed_states.append(answer_state)
         t = turtle.Turtle()
